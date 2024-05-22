@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: #153448;
+    height: 60px;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #ffeae8;
+    padding-block-start: 1rem;
+    padding-block-end: 1rem;
+    font-size: 1rem;
+}
