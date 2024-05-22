@@ -13,7 +13,8 @@ function main() {
             if (responseJson.error) {
                 showResponseMessage(responseJson.message);
             } else {
-                renderAllBooks(responseJson.books);
+                // renderAllBooks(responseJson.books);
+                console.log(responseJson);
             }
 
         };
@@ -53,6 +54,7 @@ function main() {
             formApp.render();
         });
     });
+    getBook();
 
 }
 
