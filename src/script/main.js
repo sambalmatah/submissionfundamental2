@@ -15,6 +15,9 @@ function main() {
             } else {
                 // renderAllBooks(responseJson.books);
                 console.log(responseJson);
+                const listNotes = document.querySelector("list-notes");
+                listNotes.notes = responseJson.data;
+                listNotes.render();
             }
 
         };

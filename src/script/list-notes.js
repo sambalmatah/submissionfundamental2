@@ -75,6 +75,7 @@ class ListNotes extends HTMLElement {
     }
 
     render() {
+        console.log(notes);
         this._updateStyle();
 
         this.innerHTML = `
